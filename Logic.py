@@ -26,8 +26,8 @@ def game():
                         bank -= stav
                         print('Вы не угадали!')
                 elif bank == 0:
-                    print('Вы проиграли все свои денги')
-                    continue
+                    print('Вы проиграли все свои деньги')
+                    break
                 elif stav > bank:
                     print('У вас не хватает средств!')
             elif com == '2':
